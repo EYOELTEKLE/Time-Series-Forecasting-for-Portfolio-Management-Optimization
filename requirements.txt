@@ -62,4 +62,6 @@ urllib3==2.5.0
 wcwidth==0.2.13
 websockets==15.0.1
 yfinance==0.2.65
+tensorflow 
+pmdarima
 -e git+https://github.com/EYOELTEKLE/Time-Series-Forecasting-for-Portfolio-Management-Optimization.git@c6d24c9acda2ddca461204600008262aa343768c#egg=your_project_name
