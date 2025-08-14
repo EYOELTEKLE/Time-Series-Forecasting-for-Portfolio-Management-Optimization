@@ -224,6 +224,7 @@ class ARIMAModel:
         if not self.is_fitted:
             raise ValueError("Model must be fitted before plotting diagnostics")
         
+        import matplotlib.pyplot as plt
         self.fitted_model.plot_diagnostics(figsize=figsize)
         plt.tight_layout()
         plt.show()
